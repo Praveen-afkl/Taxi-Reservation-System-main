@@ -39,4 +39,41 @@ The system is modeled using clear, object-oriented principles with classes such 
 * **Ride Booking:** Allow riders to request a trip from a pickup point to a destination.
 * **Driver Matching:** Automatically finds the nearest available driver for a ride request.
 * **Fare Calculation:** Dynamically calculates the ride fare based on distance and pricing strategy.
-*
+* **Trip Management:** Track the status of a ride (Requested, In-Progress, Completed, Canceled).
+
+## 🛠️ Technology Stack
+
+* **Language:** **Java**
+* **Build System:** **Apache Ant**
+* **Core Concepts:** Object-Oriented Programming, System Design Principles, Data Structures, Design Patterns.
+
+## 🚀 Getting Started
+
+This project is built as a standard Java application and can be run from any machine with the Java Development Kit (JDK).
+
+#### Prerequisites:
+* JDK 8 or higher
+* Apache Ant
+
+#### Installation & Execution:
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/your-username/taxi-reservation-system.git](https://github.com/your-username/taxi-reservation-system.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd taxi-reservation-system
+    ```
+3.  **Build the project using Ant:**
+    This will compile the source files and create an executable `.jar` file in the `/dist` directory.
+    ```sh
+    ant
+    ```
+4.  **Run the application:**
+    ```sh
+    java -jar dist/TaxiReservationSystem.jar
+    ```
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
